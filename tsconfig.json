@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/es6",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true
+
+  },
+  "compileOnSave": false,
+  "include": [
+     "**/*"
+  ],
+  "exclude": [
+    "node_modules/*"
+  ],
+  "typedocOptions": {
+    "mode": "modules",
+    "module": "system",
+    "out": "docs",
+    "exclude": ["**/*.spec.ts", "**/test.ts", "**/index.ts", "**/list/*.ts"],
+    "theme": "default",
+    "ignoreCompilerErrors": true,
+    "excludePrivate": false,
+    "excludeNotExported": false,
+    "target": "ES6",
+    "moduleResolution": "node",
+    "preserveConstEnums": false,
+    "stripInternal": false,
+    "suppressExcessPropertyErrors": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "name": "Appaya Behavior"
+  }
+}
+
+

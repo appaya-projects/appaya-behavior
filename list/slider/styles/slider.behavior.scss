@@ -1,0 +1,17 @@
+.bSlider {
+	position: relative;
+}
+
+.bSlider__list {
+	overflow: hidden;
+}
+
+.bSlider__track {
+	display: flex;
+
+}
+
+.bSlider__item {
+	flex-shrink: 0;
+	width: 100%;
+}

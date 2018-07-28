@@ -1,0 +1,45 @@
+{
+  "name": "@appaya/behavior",
+  "version": "0.1.3",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typedoc-plugin-external-module-name": "^1.1.3"
+  },
+  "devDependencies": {
+    "@appaya/karma-html-reporter": "^1.0.3",
+    "@types/jasmine": "^2.8.6",
+    "@types/jasmine_dom_matchers": "^1.4.2",
+    "autoprefixer": "^8.6.3",
+    "awesome-typescript-loader": "^5.2.0",
+    "css-loader": "^0.28.11",
+    "jasmine": "^3.1.0",
+    "jasmine_dom_matchers": "^1.4.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-fixture": "^0.2.6",
+    "karma-html2js-preprocessor": "^1.1.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-jasmine-dom-matchers": "^0.1.2",
+    "karma-jasmine3-html-reporter": "^0.2.3",
+    "karma-webpack": "^2.0.13",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "typedoc": "^0.11.1",
+    "typescript": "^2.3.2",
+    "webpack": "^4.12.0",
+    "webpack-command": "^0.2.1"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "build:es5": "webpack --config webpack.es5.js",
+    "build:es6": "tsc",
+    "typedoc": "typedoc"
+  },
+  "author": "",
+  "license": "ISC"
+}
